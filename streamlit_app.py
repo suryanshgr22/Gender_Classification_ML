@@ -2,7 +2,7 @@ import numpy as np
 import pickle 
 import streamlit as st
 
-loaded_model = pickle.load(open('https://github.com/suryanshgr22/Gender_Classification_ML/blob/main/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 def prediction(input):
     # input = [0,	14.0,	5.4,	0,	0,	1,	0]
